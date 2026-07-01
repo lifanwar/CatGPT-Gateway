@@ -22,7 +22,7 @@ services:
     restart: unless-stopped
 
     ports:
-      - "8000:8000"   # FastAPI API
+      - "9125:8000"   # FastAPI API
       - "6080:6080"   # noVNC web UI
 
     volumes:
